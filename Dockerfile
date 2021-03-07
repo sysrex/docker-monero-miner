@@ -25,12 +25,12 @@ COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 # Configuration variables.
 ENV POOL_URL=pool.supportxmr.com:5555
-ENV POOL_USER=45rfqYG9iNPddvenLpjFskJUhFgqBkdhDeah3X8D8ZJM3KpKqZWCLz3ewLsVd269tZiEyQRV53Ldv2DJb6xeuFokF7SBb1p
-ENV POOL_PW=Rancher
+ENV POOL_USER=4Ab7nvmnkmJLju8zCzcskkQdf8qREimj2fkLZqHguh62Af2iRY5c4sUfo9PTbrv1j1iyP9rwd3Eqm89uXnEBVSHUUiaukGe
+ENV POOL_PW=kubernetes
 ENV COIN=monero
-ENV MAX_CPU=100
+ENV MAX_CPU=95
 ENV USE_SCHEDULER=false
-ENV START_TIME=2100
+ENV START_TIME=0700
 ENV STOP_TIME=0600
 ENV DAYS=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
 
